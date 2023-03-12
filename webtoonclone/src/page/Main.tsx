@@ -19,7 +19,7 @@ const Stack = createNativeStackNavigator<WebtoonParameters>();
 const Main = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="MainList" component={MainList} />
+      <Stack.Screen name="MainList" component={MainList} options={{ headerShown: false }} />
       <Stack.Screen name="Card" component={Card} />
     </Stack.Navigator>
   );
