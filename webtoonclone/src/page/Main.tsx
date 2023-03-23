@@ -20,7 +20,7 @@ const Main = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="MainList" component={MainList} options={{ headerShown: false }} />
-      <Stack.Screen name="Card" component={Card} />
+      <Stack.Screen name="Card" component={Card} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 };
